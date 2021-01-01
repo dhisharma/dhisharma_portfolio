@@ -8,11 +8,9 @@ class Banner extends Component {
           <div className='content-text position-relative'>
             <div
               className='animate-element wow delay5 fadeInDown'
-              data-wow-delay='0.3s'
+              data-wow-delay='1.3s'
             >
-              <div className='tag color-d1 lt-sp53 mg-b34'>
-                UI & UX Developer
-              </div>
+              <div className='tag color-d1 lt-sp53 mg-b34'>Web Developer</div>
               <h1 className='cd-headline clip is-full-width title color-d11 mg-b41'>
                 <span>Hi,&nbsp; </span>
                 <span className='cd-words-wrapper color-d6'>
