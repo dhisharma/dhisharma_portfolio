@@ -27,7 +27,7 @@ class Header extends Component {
                   alt='images'
                   data-width={122}
                   data-height={34}
-                  data-retina='images/logo/02@2x.png'
+                  data-retina='images/logo/03.jpeg'
                 />
               </Link>
             </div>
