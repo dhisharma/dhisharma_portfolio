@@ -1,41 +1,63 @@
 import React, { Component } from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 class Banner extends Component {
-    render() {
-        return (
-            <section className="banner-section s4 two-home" id="home">
-                <div className="container">
-                    <div className="content-text position-relative">
-                        <div className="animate-element wow delay5 fadeInDown" data-wow-delay="0.3s">
-                            <div className="tag color-d1 lt-sp53 mg-b34">UI & UX Developer</div>
-                            <h1 className="cd-headline clip is-full-width title color-d11 mg-b41">
-                                <span>Hi, </span>
-                                <span className="cd-words-wrapper color-d6">
-                                <b className="is-visible">I am</b>
-                                <b>Dhiraj Sharma</b>
-                                {/* <b>I’m Amelia!</b> */}
-                                </span>
-                            </h1>
-                            {/* <p className="color-d13 lt-sp02 mg-b51">
+  render() {
+    return (
+      <section className='banner-section s4 two-home' id='home'>
+        <div className='container'>
+          <div className='content-text position-relative'>
+            <div
+              className='animate-element wow delay5 fadeInDown'
+              data-wow-delay='0.3s'
+            >
+              <div className='tag color-d1 lt-sp53 mg-b34'>
+                UI & UX Developer
+              </div>
+              <h1 className='cd-headline clip is-full-width title color-d11 mg-b41'>
+                <span>Hi,&nbsp; </span>
+                <span className='cd-words-wrapper color-d6'>
+                  <b className='is-visible'>I am</b>
+                  <b>Dhiraj Sharma</b>
+                  {/* <b>I’m Amelia!</b> */}
+                </span>
+              </h1>
+              {/* <p className="color-d13 lt-sp02 mg-b51">
                                 Hi, i m perry, professional ux designer with 4 years <br />of experience. Need any help?
                             </p> */}
-                        </div>
-                        <div className="animate-element wow delay5 fadeInUp" data-wow-delay="0.3s">
-                            <div className="fl-btn btn-general color-s2 btn-hv-border">
-                                <Link to="#" className="f-w500 color-d6 border-corner5 lt-sp01 text-two">Download Resume</Link>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="featured-post border-corner-bl">
-                        <img src="images/section/47.jpg" alt="images" />
-                        <div className="site-list has-border text-center animate-element wow delay5 fadeInUp" data-wow-delay="0.3s">
-                            <Link to="#" className="bg-s1"><i className="fa fa-twitter" aria-hidden="true" /></Link>
-                            <Link to="#" className="bg-s2"><i className="fa fa-behance" aria-hidden="true" /></Link>
-                            <Link to="#" className="bg-s3"><span className="icon-dribble" /></Link>
-                        </div>
-                    </div>
-                </div>
-                {/* <div className="iconbox-s4 t2 color-s2 border-corner5 animate-element wow delay5 fadeZooming" data-wow-delay="0.3s">
+            </div>
+            <div
+              className='animate-element wow delay5 fadeInUp'
+              data-wow-delay='0.3s'
+            >
+              <div className='fl-btn btn-general color-s2 btn-hv-border'>
+                <Link
+                  to='#'
+                  className='f-w500 color-d6 border-corner5 lt-sp01 text-two'
+                >
+                  Download Resume
+                </Link>
+              </div>
+            </div>
+          </div>
+          <div className='featured-post border-corner-bl'>
+            <img src='images/section/47.jpg' alt='images' />
+            <div
+              className='site-list has-border text-center animate-element wow delay5 fadeInUp'
+              data-wow-delay='0.3s'
+            >
+              <Link to='#' className='bg-s1'>
+                <i className='fa fa-twitter' aria-hidden='true' />
+              </Link>
+              <Link to='#' className='bg-s2'>
+                <i className='fa fa-behance' aria-hidden='true' />
+              </Link>
+              <Link to='#' className='bg-s3'>
+                <span className='icon-dribble' />
+              </Link>
+            </div>
+          </div>
+        </div>
+        {/* <div className="iconbox-s4 t2 color-s2 border-corner5 animate-element wow delay5 fadeZooming" data-wow-delay="0.3s">
                     <div className="avatar position-relative">
                         <img src="images/footer/01.jpg" alt="images" />
                     </div>
@@ -46,9 +68,9 @@ class Banner extends Component {
                         </div>
                     </div>
                 </div> */}
-            </section>
-        );
-    }
+      </section>
+    );
+  }
 }
 
 export default Banner;
