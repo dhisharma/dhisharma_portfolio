@@ -12,7 +12,7 @@ const menus = [
     {
         id: 3,
         tomenu: "#portfolio",
-        namemenu: "Portfolio"
+        namemenu: "Projects"
     },
     {
         id: 4,

@@ -45,20 +45,9 @@ class Header extends Component {
                     data-menu-style='horizontal'
                   >
                     <li>
-                      <Link to='/' className='active'>
+                      <Link to='#home' className='active'>
                         Home
                       </Link>
-                      {/* <ul className="sub-menu" >
-                                                {
-                                                    links.map(data => (
-                                                        <li key={data.id}>
-                                                            <Link to={data.tolink} onClick={() => {window.location.href=data.tolink}} className={data.id === 4 ? "active" : ""}>
-                                                                {data.namelink}
-                                                            </Link>
-                                                        </li>
-                                                    ))
-                                                }
-                                            </ul> */}
                     </li>
                     {menus.map((menu) => (
                       <li key={menu.id}>
@@ -67,19 +56,6 @@ class Header extends Component {
                         </Link>
                       </li>
                     ))}
-                    {/* <li><Link to="#">Blog</Link>
-                                            <ul className="sub-menu" >
-                                                {
-                                                    bloglinks.map(data => (
-                                                        <li key={data.id}>
-                                                            <Link to={data.toblog} onClick={() => {window.location.href=data.toblog}}>
-                                                                {data.nameblog}
-                                                            </Link>
-                                                        </li>
-                                                    ))
-                                                }
-                                            </ul>
-                                        </li> */}
                   </ul>
                 </nav>
               </div>

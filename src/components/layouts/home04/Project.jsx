@@ -8,7 +8,7 @@ class Project extends Component {
                     <div className="row">
                         <div className="col-lg-6">
                             <div className="featured-post animate-element wow delay5 fadeZooming" data-wow-delay="0.5s">
-                                <img src="images/section/38.png" alt="images" />
+                                <img src="images/DJ/DJ3.jpg" alt="images" width="425px" />
                             </div>
                         </div>
                         <div className="col-lg-6">

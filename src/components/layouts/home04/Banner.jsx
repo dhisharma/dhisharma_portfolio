@@ -39,7 +39,7 @@ class Banner extends Component {
             </div>
           </div>
           <div className='featured-post border-corner-bl'>
-            <img src='images/section/47.jpg' alt='images' />
+            <img src='images/DJ/DJ1_2.jpg' alt='images' />
             <div
               className='site-list has-border text-center animate-element wow delay5 fadeInUp'
               data-wow-delay='0.3s'
