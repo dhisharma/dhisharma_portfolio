@@ -3059,3 +3059,22 @@ body.home4 .modalbox-wrapper .close-animatedModal:after {
     font-size: 20px;
     color: #fff;
 }
+
+
+
+
+.banner-text{
+    margin-left:-10%;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .banner-text{
+        margin-left:0%;
+    }
+    
+.name_dj{
+    font-size: 40px;
+}
+}
+
