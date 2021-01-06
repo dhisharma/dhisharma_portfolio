@@ -3,19 +3,19 @@ import { Link } from 'react-router-dom';
 class Banner extends Component {
   render() {
     return (
-      <section className='banner-section s4 two-home' id='home'>
+      <section className='banner-section s4 two-home ' id='home'>
         <div className='container'>
-          <div className='content-text position-relative'>
+          <div className='content-text position-relative banner-text'>
             <div
               className='animate-element wow delay5 fadeInDown'
               data-wow-delay='1.3s'
             >
-              <div className='tag color-d1 lt-sp53 mg-b34'>Web Developer</div>
+              <div className='tag color-d1 lt-sp53 mg-b34 '>Web Developer</div>
               <h1 className='cd-headline clip is-full-width title color-d11 mg-b41'>
                 <span>Hi,&nbsp; </span>
                 <span className='cd-words-wrapper color-d6'>
                   <b className='is-visible'>I am</b>
-                  <b>Dhiraj Sharma</b>
+                  <b className='name_dj'>Dhiraj Sharma</b>
                   {/* <b>I’m Amelia!</b> */}
                 </span>
               </h1>

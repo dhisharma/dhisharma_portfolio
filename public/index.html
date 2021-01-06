@@ -24,9 +24,57 @@
     <link rel="stylesheet" href="%PUBLIC_URL%/stylesheet/mobile-menu.css">
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <title>Dhiraj Sharma</title>
+    <script src="./jquery.js"></script> 
+    <script>
+      $(window).on('load', function() {
+              if ($('#preloader').length) {
+                  $('#preloader').delay(100).fadeOut('slow', function() {
+                      $(this).remove().then(() => console.log('preloader removed'));
+                      
+                  })
+              }
+
+          });
+      </script>
+    <style>
+
+
+      #preloader {
+          position: fixed;
+          top: 0;
+          left: 0;
+          /* right: 0;
+        bottom: 0; */
+          width: 100%;
+          margin:auto;
+          height: 100%;
+          z-index: 999999;
+          background:#0f1223;
+          overflow: hidden;
+          vertical-align: middle;
+          text-align: center;
+          justify-content: center;
+          /* display: inline-block; */
+          display: flex;
+align-items: center;
+      }
+
+      #preloader:before {
+          position: fixed;
+      }
+
+
+  </style>
+
+
   </head>
+  
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+
+    <div id="preloader">
+      <img src="./preloader5.svg"/>
+    </div>
     <div id="root"> 
     </div>
     <a id="scroll-top"></a>

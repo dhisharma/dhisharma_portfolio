@@ -28,6 +28,7 @@ class Header extends Component {
                   data-width={122}
                   data-height={34}
                   data-retina='images/logo/03.jpeg'
+                  width="200px"
                 />
               </Link>
             </div>
