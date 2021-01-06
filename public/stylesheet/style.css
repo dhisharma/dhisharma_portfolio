@@ -1124,6 +1124,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
 }
 .banner-section .featured-post.border-corner-bl img {
     border-bottom-left-radius: 105px;
+    margin-top: 12%;
 }
 .banner-section.s1 {
     padding: 223px 0 452px;
