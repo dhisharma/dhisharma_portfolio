@@ -3166,9 +3166,6 @@ body.home4 .modalbox-wrapper .close-animatedModal:after {
     font-size: 40px;
   }
 }
-.skills:hover {
-  color: #fff;
-}
 
 .skill-icons {
   transition: 0.3s;
