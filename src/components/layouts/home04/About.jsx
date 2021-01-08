@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import { Icon } from '../home02/about/index';
+// import { Icon } from '../home02/about/index';
 import { NumberCount } from './about/index';
 
 class About extends Component {
   render() {
     return (
       <section className='about-me t2 s3 shape-am position-relative' id='about'>
-        <div className='section-icons'>
-          <Icon />
-        </div>
+        <div className='section-icons'>{/* <Icon /> */}</div>
         <div className='container'>
           <div className='row position-relative'>
             <div className='col-lg-7 animate-element wow delay5 fadeInDown'>
