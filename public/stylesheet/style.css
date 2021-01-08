@@ -1968,15 +1968,15 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
   height: 100%;
   align-items: center;
   justify-content: center;
-  padding: 194px 0 93px;
+  padding: 194px 0 5px;
 }
 .flat-education.s3 .flat-title {
   margin-bottom: 74px;
 }
-.flat-education.s3 .padding-bottom {
+/* .flat-education.s3 .padding-bottom {
   border-bottom: 1px dashed #627fff;
   margin-bottom: 50px;
-}
+} */
 .timelines {
   width: 100%;
 }
@@ -2148,7 +2148,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
   background-color: #111527;
 }
 .experience-box.t3 .box-inner .exp-wrap {
-  padding: 13px 5px 30px 35px;
+  padding: 13px 5px 50px 35px;
 }
 .experience-box.t3 {
   margin-bottom: 16px;
@@ -3175,6 +3175,6 @@ body.home4 .modalbox-wrapper .close-animatedModal:after {
 }
 
 .skill-icons:hover {
-  transform: scale(1.3);
+  transform: scale(1.4);
   color: #fff;
 }

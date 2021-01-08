@@ -10,7 +10,7 @@ class Education extends Component {
             className='flat-title t2 animate-element wow delay5 fadeInDown'
             data-wow-delay='0.5s'
           >
-            {/* <h4 className="sub-title mg-b13">Educational qualification</h4> */}
+            <h4 className='sub-title mg-b13'>Technology</h4>
             <h2 className='title-section color-d11'>Skills</h2>
           </div>
           <ContentEducation />

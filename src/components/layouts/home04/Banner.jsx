@@ -81,17 +81,24 @@ class Banner extends Component {
             </div>
           </div>
         </div>
-        {/* <div className="iconbox-s4 t2 color-s2 border-corner5 animate-element wow delay5 fadeZooming" data-wow-delay="0.3s">
-                    <div className="avatar position-relative">
-                        <img src="images/footer/01.jpg" alt="images" />
-                    </div>
-                    <div className="content-inner">
-                        <h4 className="name lt-sp04 mg-b16 text-white position-relative">Available for Project</h4>
-                        <div className="fl-btn btn-general">
-                            <Link to="#" className="text-white border-corner2">Hire Me</Link>
-                        </div>
-                    </div>
-                </div> */}
+        <div
+          className='iconbox-s4 t2 color-s2 border-corner5 animate-element wow delay5 fadeZooming'
+          data-wow-delay='0.3s'
+        >
+          <div className='avatar position-relative'>
+            <img src='images/footer/01.jpg' alt='images' />
+          </div>
+          <div className='content-inner'>
+            <h4 className='name lt-sp04 mg-b16 text-white position-relative'>
+              Available for Project
+            </h4>
+            <div className='fl-btn btn-general'>
+              <Link to='#' className='text-white border-corner2'>
+                Hire Me
+              </Link>
+            </div>
+          </div>
+        </div>
       </section>
     );
   }
