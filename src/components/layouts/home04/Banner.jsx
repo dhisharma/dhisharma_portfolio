@@ -20,8 +20,7 @@ class Banner extends Component {
                 </span>
               </h1>
               <p className='color-d13 lt-sp02 mg-b51'>
-                I develop and design beautifully simple things, and I love what
-                I do.
+                I develop and design digital products, and I love what I do.
               </p>
             </div>
             <div
@@ -39,7 +38,7 @@ class Banner extends Component {
             </div>
           </div>
           <div className='featured-post border-corner-bl'>
-            <img src='images/DJ/DJ1_2.jpg' alt='images' />
+            <img src='images/DJ/DJ13.jpg' alt='images' />
             <div
               className='site-list has-border text-center animate-element wow delay5 fadeInUp'
               data-wow-delay='0.3s'
