@@ -2544,7 +2544,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
   height: 100%;
   justify-content: center;
   align-items: center;
-  padding: 314px 0 190px;
+  padding: 100px 0 100px;
 }
 .about-me.s3 .featured-post {
   top: 32%;
@@ -2567,7 +2567,7 @@ body.slide-menu-dark .header #mainnav .menu li a:hover {
   padding: 238px 0;
 }
 .experienced.s3 {
-  padding: 90px 0 61px 0;
+  padding: 90px 0 150px 0;
 }
 .experienced.s3 .background-inner {
   padding: 50px 50px 123px 50px;
