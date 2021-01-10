@@ -31,8 +31,7 @@ class About extends Component {
                   </p>
                   <p className='color-d13 lt-sp01'>
                     If you need any type of Website or any kind of Mobile app,
-                    landing page or Website design within a day? then you can
-                    tell me, I'm here to help you.
+                    landing page or Website design. I'm here to help you.
                   </p>
                 </div>
               </div>

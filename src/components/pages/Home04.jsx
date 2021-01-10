@@ -3,6 +3,7 @@ import {
   About,
   Banner,
   CaseStudy,
+  Contact,
   Education,
   Footer,
   Header,
@@ -27,6 +28,7 @@ class Home04 extends Component {
             <CaseStudy />
             <Testimonial />
             {/* <Footer /> */}
+            <Contact />
           </div>
         </div>
       </div>

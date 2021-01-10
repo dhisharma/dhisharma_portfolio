@@ -3178,3 +3178,40 @@ body.home4 .modalbox-wrapper .close-animatedModal:after {
   transform: scale(1.4);
   color: #fff;
 }
+
+.contact {
+  text-align: center;
+  min-height: 80vh;
+}
+.contact-intro {
+  font-size: 50px;
+  line-height: 60px;
+  font-family: 'Archivo Black', sans-serif;
+  color: #d8dfff;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+.form-group {
+  display: flex;
+}
+.form {
+  width: 70vw;
+}
+label {
+  color: #3b55d1;
+  font-size: 22px;
+}
+
+input[type='email'] {
+  background: rgba(0, 0, 0, 0.2);
+  border: none;
+}
+input[type='email']:hover {
+  border-bottom: 2px solid #3b55d1;
+}
+
+@media only screen and (max-width: 600px) {
+  .form-div {
+    max-width: 95vw;
+  }
+}
