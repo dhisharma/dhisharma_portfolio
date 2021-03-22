@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "emailjs-com": "^2.6.4",
     "nodemailer": "^6.4.17",
     "nodemailer-react": "^0.1.0",
     "react": "^17.0.1",
@@ -10,6 +11,7 @@
     "react-router": "^5.2.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.0",
+    "sweetalert": "^2.1.2",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
