@@ -8,22 +8,22 @@ class NumberCount extends Component {
         {
           id: 1,
           item: 'f-item color-s2 counter mg-f-item1',
-          datato: '284',
-          text: 'Hapy Client',
+          datato: '24',
+          text: 'Happy Client',
         },
         {
           id: 2,
           item: 'f-item color-s3 counter mg-f-item2',
-          datato: '165',
-          text: 'Review',
+          datato: '16',
+          text: 'Reviews',
         },
       ],
       colright: [
         {
           id: 1,
           item: 'f-item color-s4 counter mg-f-item3',
-          datato: '379',
-          text: 'Project Complate',
+          datato: '37',
+          text: 'Project Complete',
         },
       ],
     };

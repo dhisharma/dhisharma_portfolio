@@ -18,7 +18,7 @@ class About extends Component {
                 </h2>
                 <div className='description'>
                   <p className='color-d13 lt-sp01'>
-                    I currently am working as a Web Developer at Accenture,
+                    I currently am working as a Software Engineer at Wells Fargo,
                     which is where my passion for development and design
                     converge. I am also working on a few side projects. Since
                     beginning of my journey as a Web Developer nearly 8 years
@@ -37,7 +37,7 @@ class About extends Component {
               </div>
             </div>
             <div className='fact'>
-              <NumberCount />
+              {/* <NumberCount /> */}
               <div className='btn-contact bg-s2 text-center'>
                 <h4 className='title color-d11'>Get a project? Let’s talk.</h4>
                 <a
