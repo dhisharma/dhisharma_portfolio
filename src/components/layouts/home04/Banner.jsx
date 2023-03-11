@@ -28,12 +28,12 @@ class Banner extends Component {
               data-wow-delay='0.3s'
             >
               <div className='fl-btn btn-general color-s2 btn-hv-border'>
-                <Link
-                  to='#'
+                <a
+                  href='/DhirajSharma.pdf' download
                   className='f-w500 color-d6 border-corner5 lt-sp01 text-two'
                 >
                   Download Resume
-                </Link>
+                </a>
               </div>
             </div>
           </div>

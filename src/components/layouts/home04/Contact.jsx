@@ -23,10 +23,10 @@ const Contact = () => {
       };
       emailjs
         .send(
-          "service_q2jc01m",
-          "template_nxdkyr9",
+          "service_tkuvbba",
+          "template_eivujlm",
           templateParams,
-          "user_L8GMgfUjSDd6weAIpR0qU"
+          "0GGH6mtrI34Idozb4"
         )
         .then(
           (response) => {
