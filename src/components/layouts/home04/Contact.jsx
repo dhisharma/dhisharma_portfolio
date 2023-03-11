@@ -103,6 +103,7 @@ const Contact = () => {
               className="form-control fields col-md-8"
               row="10"
               type="text"
+              placeholder="Subject"
               onChange={(e) => setSubject(e.target.value)}
             />
           </div>
@@ -116,9 +117,10 @@ const Contact = () => {
             </label>
 
             <textarea
-              id="subject"
+              id="message"
               class="form-control col-md-8"
               row="10"
+              placeholder="Message"
               onChange={(e) => setMessage(e.target.value)}
             ></textarea>
           </div>

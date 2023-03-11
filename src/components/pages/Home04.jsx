@@ -26,7 +26,7 @@ class Home04 extends Component {
             <Project />
             <Education />
             <CaseStudy />
-            <Testimonial />
+            {/* <Testimonial /> */}
             {/* <Footer /> */}
             <Contact />
           </div>

@@ -7,18 +7,18 @@ const menus = [
   {
     id: 2,
     tomenu: '#services',
-    namemenu: 'Services',
+    namemenu: 'Specialization',
   },
   {
     id: 3,
     tomenu: '#portfolio',
     namemenu: 'Projects',
   },
-  {
-    id: 4,
-    tomenu: '#testimonial',
-    namemenu: 'Testimonial',
-  },
+  // {
+  //   id: 4,
+  //   tomenu: '#testimonial',
+  //   namemenu: 'Testimonial',
+  // },
   {
     id: 5,
     tomenu: '#contact',
